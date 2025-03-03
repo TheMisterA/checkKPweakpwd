@@ -25,7 +25,7 @@ from pykeepass import PyKeePass
 from zxcvbn import zxcvbn
 
 # Define the path to the KeePass database and the password
-# For one-time use! Otherwise, secure via call vault or other methods
+Be careful! This is for one-time use! Otherwise, secure via call vault or other methods
 db_path = '[path]/[DB].kdbx'
 password = '[password]'
 
