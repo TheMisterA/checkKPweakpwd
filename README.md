@@ -1,13 +1,13 @@
-KeePass Weak Password Checker
+# KeePass Weak Password Checker
 This Python script checks the strength of passwords stored in a KeePass database and identifies weak passwords. It uses the PyKeePass library to interact with the KeePass database and the zxcvbn library to evaluate password strength.
 
-Features
+# Features
 Loads a KeePass database and iterates through all entries.
 Checks the strength of each password using the zxcvbn library.
 Identifies and lists weak passwords (default : score less than 3).
 Exports the results to a text file.
 
-Prerequisites
+# Prerequisites
 Python 3.x
 pykeepass library
 zxcvbn library
@@ -20,7 +20,7 @@ Define the path to your KeePass database and the password:
 Update the db_path and password variables in the script with the appropriate values.
 Run the script:
 
-Execute the script to check the strength of the passwords in your KeePass database.
+# Execute the script to check the strength of the passwords in your KeePass database.
 from pykeepass import PyKeePass
 from zxcvbn import zxcvbn
 
